@@ -1,0 +1,132 @@
+.makepost-container{
+    position: absolute;
+    bottom: 0;
+    height: 65vh;
+    z-index: 999;
+    background: #181818;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.makepost-navigation{
+    align-self: flex-end;
+    padding: 10px 15px 0 0;
+}
+.makepost-post{
+    color: rgb(19, 61, 247);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.makepost-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+}
+.btn-tag{
+    background: #d8d8d8;
+    color: rgb(15, 15, 15);
+    border: none;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0 10px 10px 0;
+}
+.btn-tag__None{
+    background: #fff;
+    color: #000;
+}
+.btn-tag__NSFW{
+    background: #ff0000;
+    color: #fff;
+}
+.btn-tag__Movie{
+    background: #00ff00;
+    color: #fff;
+}
+.btn-tag__Music{
+    background: #0000ff;
+    color: #fff;
+}
+.btn-tag__Food{
+    background: #ff00ff;
+    color: #fff;
+}
+.btn-tag__Sports{
+    background: #ffff00;
+    color: #000;
+}
+.btn-tag__Travel{
+    background: #00ffff;
+    color: #000;
+}
+.btn-tag__Gaming{
+    background: #c20c51;
+    color: #fff;
+}
+.btn-tag__Fashion{
+    background: #ff00ea;
+    color: #fff;
+}
+.btn-tag__Art{
+    background: #00ffd8;
+    color: #000;
+}
+.btn-tag__Technology{
+    background: #00d8ff;
+    color: #000;
+}
+.btn-tag__Books{
+    background: #00ff88;
+    color: #000;
+}
+.btn-tag__Other{
+    background: #ffffff;
+    color: #000;
+}
+.active{
+    background: teal;
+    color: #fff;
+    box-shadow: 0 0 10px teal,
+    0 0 15px teal,
+    0 0 20px teal;
+}
+
+.post-container{
+    padding: 5px 10px;
+    margin-bottom: 25px;
+}
+.post-content{
+    background: rgb(44, 44, 44);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    
+}
+.post-content-title{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform:capitalize;
+}
+.post-content-desc p{
+    display: inline-block;
+    font-size: 0.9rem;
+    color: #fff;
+    margin: 10px 0;
+    text-transform:capitalize;
+}
+.post-content-tags__title{
+    margin-right: 10px;
+}
+.post-content-tags__tag{
+    display: flex;
+    flex-wrap: wrap;
+}
