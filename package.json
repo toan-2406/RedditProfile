@@ -42,21 +42,9 @@
   },
   "proxy": {
     "/api": {
-      "target": "<url_1>",
+      "target": "<url>",
       "ws": true
-    },
-    "/foo": {
-      "target": "<url_2>",
-      "ssl": true,
-      "pathRewrite": {
-        "^/foo": "/foo/beta"
-      }
-    },
-    "/bar/[^/]*[.]html": {
-      "target": "<url_3>",
-    },
-    "/baz/.*/.*[.]html": {
-      "target": "<url_4>"
+      // ...
     }
   }
 }
